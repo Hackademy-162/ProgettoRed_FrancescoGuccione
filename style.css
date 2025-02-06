@@ -1,0 +1,89 @@
+body {
+    font-family: "Rajdhani", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* custom navbar */
+
+.cmnavbar {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 8%, rgba(255,255,255,0.6530987394957983) 39%, rgba(255,255,255,0.36458333333333337) 60%, rgba(255, 255, 255, 0.356) 90%);
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+
+.logonv {
+    width: 150px;
+    position: absolute;
+    top: 0px;
+    left: 46vw;
+}
+
+.linksnv {
+    position: absolute;
+    left: 30vw;
+    top: 80px;
+}
+
+/* custom header */
+
+.cmheader {
+    background: url(./media/switzerland-862870_1920.jpg);
+    height: 100vh;
+}
+
+.titlehd {
+    letter-spacing: 40px;
+    font-size: 80px;
+    color: darkred;
+    position: absolute;
+    z-index: 1;
+}
+
+.imghd {
+    position: absolute;
+    z-index: 1;
+    top: 10vh;
+}
+
+/* custom prima sezione */
+
+.firstsec {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 100vh;
+}
+
+.pfirstsec {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    padding: 70px 30vw;
+    line-height: 30px;
+}
+
+strong {
+    color: darkred;
+    font-size: 30px;
+}
+
+.cosecs {
+    padding: 180px 150px;
+    position: absolute;
+    left: 17vw;
+}
+
+.fa-iconcs {
+    margin-left: 32px;
+    margin-bottom: 20px;
+    color: darkred;
+}
+
+/* custom seconda sezione */
+
+.secondsec {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 50vh;
+}
