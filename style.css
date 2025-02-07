@@ -4,6 +4,10 @@ body {
     font-style: normal;
 }
 
+h1, h2, h5, i {
+    color: darkred !important;
+}
+
 /* custom navbar */
 
 .cmnavbar {
@@ -36,7 +40,6 @@ body {
 .titlehd {
     letter-spacing: 40px;
     font-size: 80px;
-    color: darkred;
     position: absolute;
     z-index: 1;
 }
@@ -68,15 +71,37 @@ strong {
     font-size: 30px;
 }
 
+.divider {
+    border-bottom: 3px solid darkred;
+    width: 7vw;
+    position: relative;
+    top: 5px;
+    right: 6px;
+    bottom: 8px;
+}
+
+.icondiv {
+    position: absolute;
+    left: 55px;
+}
+
 .cosecs {
     padding: 180px 150px;
     position: absolute;
     left: 17vw;
 }
 
-.fa-iconcs {
-    margin-left: 32px;
-    margin-bottom: 20px;
+.fa-iconcs1half {
+    position: relative;
+    left: 31px;
+    bottom: 15px;
+    color: darkred;
+}
+
+.fa-iconcs2half {
+    position: relative;
+    left: 25px;
+    bottom: 15px;
     color: darkred;
 }
 
@@ -85,5 +110,125 @@ strong {
 .secondsec {
     background-color: rgb(236, 236, 236);
     width: 100%;
-    height: 50vh;
+    height: 90vh;
+}
+
+.h2right {
+    position: relative;
+    left: 20px;
+}
+
+.psecondsec1 {
+    font-size: 50px;
+}
+
+.btncs {
+    background-color: darkred;
+    color: rgb(236, 236, 236);
+    padding: 6px 50px;
+    margin-top: 30vh;
+}
+
+/* custom terza sezione */
+
+.thirdsec {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.cont3sec{
+    margin-left: 3vw;
+    border-left: 2px solid darkred;
+}
+
+.icon3sec {
+    position: absolute;
+    left: 51px;
+}
+
+.img3sec {
+    position: absolute;
+    left: 48vw;
+    top: 15vh;
+}
+
+/* custom quarta sezione */
+
+.fourthsec {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 220vh;
+}
+
+.cscard {
+    background-color: rgb(236, 236, 236);
+}
+
+.cardimg {
+    background-image: url(./media/mountain-547363_1920.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border: 8px solid darkred;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 85px;
+}
+
+.h2_4sec {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+.circleimg {
+    background-image: url(./media/mountain-547363_1920.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border: 8px solid darkred;
+    border-radius: 50%;
+    position: relative;
+    bottom: 8vh;
+    margin-bottom: 20px;
+}
+
+.img4sec {
+    position: relative;
+    top: 60px;
+}
+
+/* custom footer */
+
+footer {
+    background-color: darkred;
+    width: 100%;
+    height: 35vh;
+}
+
+.h2ftr {
+    color: rgb(236, 236, 236) !important;
+    padding-top: 50px;
+}
+
+.h3ftr {
+    color: rgb(236, 236, 236) !important;
+}
+
+.pftr {
+    color: rgb(236, 236, 236) !important;
+}
+
+ul {
+    color: rgb(236, 236, 236);
+}
+
+.aftr {
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+}
+
+.col-2 {
+    margin-top: 55px !important;
 }
